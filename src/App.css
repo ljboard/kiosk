@@ -5,7 +5,7 @@
   font-family: 
   Roboto; margin: 0;
 }
-body {  overflow-y: hidden;}
+body {  overflow-y: hidden; } 
 
 .PersonalInfo, .HomePage, .HeartRate, .ConfirmationPage { 
   height: 2732px;
@@ -22,11 +22,11 @@ body {  overflow-y: hidden;}
 }
 
 input[type="text"], input[type="number"] {
-  border: 5px solid #ffcd2b;
+  border: 3px solid #ffcd2b;
   border-radius: 40px;
   width: 50%;
   height: 100%;
-  font-size: 90px;
+  font-size: 60px;
 }
 
 .infoSection {
@@ -37,7 +37,7 @@ input[type="text"], input[type="number"] {
 .infoSection h3 {
   margin-top: 20px;
   float: left;
-  font-size: 70px;
+  font-size: 50px;
   color: #db8e00;
   font-family: "Roboto Condensed";
 }
@@ -48,35 +48,35 @@ input[type="text"], input[type="number"] {
 
 h1 {
   text-align: center;
-  font-size: 275px;
+  font-size: 60px;
   color: #ffcd2b;
-  padding-top: 225px;
   font-family: "Roboto Condensed";
 }
 
 h2 {
   text-align: center;
-  font-size: 70px;
+  font-size: 40px;
   color: #683b0f;
 }
 
 .startButton {
   background-color: #F3F4F3;
-  font-size: 75px;
+  font-size: 45px;
 
   text-align: center;
-  border: 5px solid #ffcd2b;
+  border: 3px solid #ffcd2b;
 
-  padding: 70px 450px 70px 450px;
+  width: 20%;
+  height: 10%;
   margin:auto;
-  margin-top: 150px;
+  margin-top: 10%;
   display: block;
   border-radius: 50px;
   color: #ffcd2b;
 }
 
 .injuryOption {
-  border: 5px solid #F1F2F1;
+  border: 3px solid #F1F2F1;
   border-radius: 50%;
   width: 500px;
   height: 520px;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .injuryOptionLabel {
-  font-size: 80px;
+  font-size: 50px;
   color: #794919;
   font-family: "Roboto Condensed";
 }
@@ -106,7 +106,7 @@ h2 {
   width: 350px;
   height: 350px;
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
   border-radius: 50%;
 }
 
