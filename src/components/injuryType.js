@@ -35,10 +35,10 @@ class InjuryType extends Component {
       <div 
         className="injuryOption"
         onClick={this.props.onInjuryTypeInput}>
-          <div style={{height: 225}}>
+          <div style={{height: 260}}>
             <img name={type.name} 
               src={this.props.injuries[type.name] ? type.black : type.white} 
-              style={{marginTop: 70}} width={125} height={125} 
+              style={{marginTop: 90}} width={125} height={125} 
             />
           </div>
           <span className="injuryOptionLabel">{type.name}</span>

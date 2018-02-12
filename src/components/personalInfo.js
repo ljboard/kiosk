@@ -19,7 +19,7 @@ class PersonalInfo extends Component {
               onChange={this.props.onDateInput} />
           </div>
           <div className="infoSection">
-            <h3>SOCIAL SECURITY NUMBER </h3>
+            <h3>SSN </h3>
             <input type="number"
               onChange={this.props.onSSNInput} />
           </div>
