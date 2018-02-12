@@ -26,12 +26,12 @@ input[type="text"], input[type="number"] {
   border-radius: 40px;
   width: 50%;
   height: 100%;
-  font-size: 60px;
+  font-size: 35px;
 }
 
 .infoSection {
-  height: 125px;
-  margin: 180px;
+  height: 40px;
+  margin: 100px;
 }
 
 .infoSection h3 {
@@ -47,8 +47,9 @@ input[type="text"], input[type="number"] {
 }
 
 h1 {
+  padding-top: 100px;
   text-align: center;
-  font-size: 60px;
+  font-size: 100px;
   color: #ffcd2b;
   font-family: "Roboto Condensed";
 }
@@ -66,8 +67,8 @@ h2 {
   text-align: center;
   border: 3px solid #ffcd2b;
 
-  width: 20%;
-  height: 10%;
+  width: 35%;
+  height: 20%;
   margin:auto;
   margin-top: 10%;
   display: block;
@@ -78,9 +79,9 @@ h2 {
 .injuryOption {
   border: 3px solid #F1F2F1;
   border-radius: 50%;
-  width: 500px;
-  height: 520px;
-  margin: 120px;
+  width: 250px;
+  height: 260px;
+  margin: 60px;
   display: inline-block;
 }
 

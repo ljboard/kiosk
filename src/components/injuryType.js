@@ -35,10 +35,10 @@ class InjuryType extends Component {
       <div 
         className="injuryOption"
         onClick={this.props.onInjuryTypeInput}>
-          <div style={{height: 550}}>
+          <div style={{height: 225}}>
             <img name={type.name} 
               src={this.props.injuries[type.name] ? type.black : type.white} 
-              style={{marginTop: 140}} width={250} height={250} 
+              style={{marginTop: 70}} width={125} height={125} 
             />
           </div>
           <span className="injuryOptionLabel">{type.name}</span>
@@ -47,14 +47,14 @@ class InjuryType extends Component {
     return (
       <div className="InjuryType" style={{textAlign: "center"}}>
         <h1>INJURIES</h1>
-        <div style={{height: 100}}></div><div>
+        <div style={{height: 50}}></div><div>
           {injuryTypeOptions}
         </div>
         <img 
-          style={{position: "fixed", bottom: 100, right: 120}}
+          style={{position: "fixed", bottom: 30, right: 40}}
           src={orangeArrow} 
-          width={450}
-          height={200}
+          width={225}
+          height={100}
           onClick={() => {this.props.onContinueClick("finished")}} />
       </div>
     );

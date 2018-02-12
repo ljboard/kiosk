@@ -61,10 +61,10 @@ class HeartRate extends Component {
       <div>
         <h2>Measurement successful.</h2>
         <img 
-          style={{position: "fixed", bottom: 100, right: 120}}
+          style={{position: "fixed", bottom: 30, right: 40}}
           src={whiteArrow} 
-          width={450}
-          height={200}
+          width={225}
+          height={100}
           onClick={() => {this.props.onContinueClick("injuryType")}} />
       </div>      
     )

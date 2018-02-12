@@ -28,11 +28,11 @@ class ConfirmationPage extends Component {
         <h2>Please take your band.</h2>
         <img 
           src={smiley}
-          width={900} height={800} 
+          width={450} height={400} 
         />
 
         <h2 style={{color: "#ffcd2b"}}>Your estimated wait time is 
-          <span style={{color: "#683b0f", fontSize: 150 }}>
+          <span style={{color: "#683b0f", fontSize: 90 }}>
             {this.props.waitTime}
           </span>
         .</h2>
