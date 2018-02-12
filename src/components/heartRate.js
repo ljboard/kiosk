@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import whiteArrow from '../icons/whiteArrow.jpg';
-import hand from '../icons/hand.png';
 
 class HeartRate extends Component {
   constructor(props) {
@@ -43,12 +42,7 @@ class HeartRate extends Component {
   render() {
     const instructions = (
       <div>
-        <h2>Please place your hand on the screen as shown.</h2>
-        <img 
-          src={hand}
-          width={425} height={475} 
-          style={{position: "fixed", top: "30%"}}
-        />
+        <h2>Please place your hand on the screen.</h2>
       </div>
     );
     const waiting = (
@@ -61,11 +55,6 @@ class HeartRate extends Component {
             backgroundColor:"#ffcd2b"}}>
           </div>
         </div>
-        <img 
-          src={hand}
-          width={425} height={475} 
-          style={{position: "fixed", top: "30%"}}
-        />
       </div>
     );
     const finished = (
